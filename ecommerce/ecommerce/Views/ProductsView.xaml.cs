@@ -21,7 +21,6 @@ namespace ecommerce.Views
     /// </summary>
     public partial class ProductsView : Page
     {
-
         public ProductsView()
         {
             InitializeComponent();

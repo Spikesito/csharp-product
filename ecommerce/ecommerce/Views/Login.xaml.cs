@@ -23,10 +23,10 @@ namespace ecommerce.Views
     /// </summary>
     public partial class Login : Page
     {
-        private Frame _navigator;
+        private Frame _frame;
         public Login(Frame nav)
         {
-            _navigator = nav;
+            _frame = nav;
             InitializeComponent();
         }
 
@@ -41,9 +41,7 @@ namespace ecommerce.Views
                 MessageBox.Show("Erreur lors de la connexion", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             } else
             {
-                _navigator.Navigate(new ProductsView());
-
-
+                _frame.Navigate(new ProductsView());
             }
             // var temp = cnn.State.ToString();
 
