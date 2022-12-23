@@ -21,7 +21,7 @@ namespace ecommerce.Model
 
         public MySqlConnection ConnectDB()
         {
-            string connectionString = "SERVER=localhost;DATABASE=products;UID=" + uid + ";" + "PASSWORD=" + password + ";";
+            string connectionString = "SERVER=localhost;DATABASE=ecom-products;UID=" + uid + ";" + "PASSWORD=" + password + ";";
             MySqlConnection cnn = new MySqlConnection(connectionString);
             return cnn;
         }

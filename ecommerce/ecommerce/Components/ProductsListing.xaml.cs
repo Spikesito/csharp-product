@@ -4,6 +4,7 @@ using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -30,6 +31,7 @@ namespace ecommerce.Components
         }
         public ProductsListing()
         {
+            
             InitializeComponent();
             List<VMProductsListingItem> items = new List<VMProductsListingItem>();
             ///items.Add(new VMProductsListingItem(1, "AF1", 12, 1));
