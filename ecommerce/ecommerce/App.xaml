@@ -4,6 +4,27 @@
              xmlns:local="clr-namespace:ecommerce"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="BorderPrimary" Color="#1c1c1c"/>
+            <Style TargetType="Button">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Background" Value="#547AFF"/>
+                <Setter Property="Padding" Value="15 5"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border CornerRadius="3" Padding="{TemplateBinding Padding}" Margin="{TemplateBinding Margin}" Background="{TemplateBinding Background}">
+                                <ContentPresenter/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
