@@ -31,25 +31,5 @@ namespace ecommerce
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            string server = "localhost";
-            string database = "products";
-            string uid = "root";
-            string password = "";
-            string connectionString = "SERVER=" + server + ";" + "DATABASE=" +
-            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
-            MySqlConnection cnn;
-            cnn = new MySqlConnection(connectionString);
-            cnn.Open();
-            MessageBox.Show("Connection Open !");
-            cnn.Close();
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
     }
 }

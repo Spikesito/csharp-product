@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ecommerce.ViewModel;
 
 namespace ecommerce.Views
 {
@@ -27,25 +28,18 @@ namespace ecommerce.Views
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        { 
-            string server = "localhost";
-            string database = "ecom-products";
+        {
             string uid = UserTextBox.Text;
             string password = PassBox.Password;
-            string connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
-            MySqlConnection cnn = new MySqlConnection(connectionString);
-            // var temp = cnn.State.ToString();
-            try
+            VMLogin log = new VMLogin(password, uid);
+            if (log.CheckLogin() == "Error")
             {
-            cnn.Open();
-            }catch (Exception err)
+                MessageBox.Show("Erreur lors de la connexion", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            } else
             {
-            MessageBox.Show("Erreur lors de la connexion", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            } finally
-            {
-                cnn.Close();
+                MessageBox.Show("GG", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-
+            // var temp = cnn.State.ToString();
 
         }
     }

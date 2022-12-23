@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\ecommerce",
-    "\\ecommerce\\ecommerce"
+    "\\ecommerce\\ecommerce",
+    "\\ecommerce\\ecommerce\\Views"
   ],
-  "SelectedNode": "\\ecommerce\\ecommerce\\ecommerce.csproj.user",
+  "SelectedNode": "\\ecommerce\\ecommerce\\Views\\Login.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

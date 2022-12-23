@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ecommerce.ViewModel
 {
-    public class ViewModelBase : INotifyPropertyChanged
+    public class ViewModelBase
     {
     }
 }

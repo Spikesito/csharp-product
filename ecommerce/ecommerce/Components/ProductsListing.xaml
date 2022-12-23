@@ -11,8 +11,9 @@
         <Border BorderBrush="{StaticResource BorderPrimary}" BorderThickness="1" CornerRadius="5" SnapsToDevicePixels="True">
             <Grid>
                 <Grid.OpacityMask>
-                    <VisualBrush Visual="{Binding ElementName=border}"/>
+                    <VisualBrush Visual="{Binding ElementName=bord}"/>
                 </Grid.OpacityMask>
+            
                 <Border x:Name="border" Background="White" CornerRadius="5"/>
                 <ListView BorderThickness="0"/>
             </Grid>

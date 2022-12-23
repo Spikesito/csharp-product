@@ -13,7 +13,11 @@
     ],
     "additionalProbingPaths": [
       "C:\\Users\\emile\\.dotnet\\store\\|arch|\\|tfm|",
+<<<<<<< HEAD
       "C:\\Users\\emile\\.nuget\\packages"
+=======
+      "C:\\Users\\Utilisateur\\.nuget\\packages"
+>>>>>>> master
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
