@@ -17,7 +17,6 @@ namespace ecommerce
             {
                 DataContext = new VMProductsView()
             };
-            MainWindow.Show();
             base.OnStartup(e);
         }
     }

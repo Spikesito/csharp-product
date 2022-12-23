@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ecommerce.Views"
              xmlns:vm="clr-namespace:ecommerce.ViewModel"
-             xmlns:components="clr-namespace:ecommerce.Components" xmlns:viewmodel="clr-namespace:ecommerce.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:VMProductsView}"
+             xmlns:components="clr-namespace:ecommerce.Components"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
@@ -21,7 +21,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBlock Grid.Column="0" FontSize="32" Text="Products List"/>
-            <Button Grid.Column="1" Command="{Binding AddProductsCommand}" FontSize="16" Content="Add"/>
+            <Button Grid.Column="1" FontSize="16" Content="Add"/>
         </Grid>
 
         <Grid Grid.Row="1" Margin="0 20 0 0">
@@ -30,8 +30,8 @@
                 <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
 
-            <components:ProductsListing Grid.Column="0" DataContext="{Binding VMProductsListing}"/>
-            <components:ProductsDetails Grid.Column="1" Margin="20 0 0 0" DataContext="{Binding VMProductsDetails}"/>
+            <components:ProductsListing Grid.Column="0"/>
+            <components:ProductsDetails Grid.Column="1" Margin="20 0 0 0"/>
         </Grid>
     </Grid>
 </UserControl>
