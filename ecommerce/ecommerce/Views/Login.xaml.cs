@@ -27,17 +27,26 @@ namespace ecommerce.Views
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        
+        { 
             string server = "localhost";
-            string database = "products";
+            string database = "ecom-products";
             string uid = UserTextBox.Text;
             string password = PassBox.Password;
-            string connectionString = "SERVER=" + server + ";" + "DATABASE=" +
-            database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
+            string connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
             MySqlConnection cnn = new MySqlConnection(connectionString);
+            // var temp = cnn.State.ToString();
+            try
+            {
+            cnn.Open();
+            }catch (Exception err)
+            {
+            MessageBox.Show("Erreur lors de la connexion", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            } finally
+            {
+                cnn.Close();
+            }
 
 
-            ///MessageBox.Show("Username cannot be empty.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 }

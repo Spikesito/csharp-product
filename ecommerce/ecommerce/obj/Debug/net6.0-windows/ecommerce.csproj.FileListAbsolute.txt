@@ -30,3 +30,35 @@ C:\Users\emile\Desktop\Perso\Ynov\B2 INFO\Cours\C#\CSharpProduct\ecommerce\ecomm
 C:\Users\emile\Desktop\Perso\Ynov\B2 INFO\Cours\C#\CSharpProduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Components\ProductsListing.baml
 C:\Users\emile\Desktop\Perso\Ynov\B2 INFO\Cours\C#\CSharpProduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Views\Login.baml
 C:\Users\emile\Desktop\Perso\Ynov\B2 INFO\Cours\C#\CSharpProduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Views\ProductsView.baml
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce.csproj.AssemblyReference.cache
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Components\ProductsDetails.g.cs
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Components\ProductsListing.g.cs
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Views\Login.g.cs
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Views\ProductsView.g.cs
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce_MarkupCompile.cache
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce_MarkupCompile.lref
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce.dll
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\refint\ecommerce.dll
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce.pdb
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\bin\Debug\net6.0-windows\ecommerce.exe
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\bin\Debug\net6.0-windows\ecommerce.deps.json
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\bin\Debug\net6.0-windows\ecommerce.runtimeconfig.json
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\bin\Debug\net6.0-windows\ecommerce.dll
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\bin\Debug\net6.0-windows\ecommerce.pdb
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Components\ProductsDetails.baml
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Components\ProductsListing.baml
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Views\Login.baml
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\Views\ProductsView.baml
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce.g.resources
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce.AssemblyInfo.cs
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce.csproj.CopyComplete
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ecommerce.genruntimeconfig.cache
+C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\obj\Debug\net6.0-windows\ref\ecommerce.dll

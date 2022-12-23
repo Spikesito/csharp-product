@@ -1,5 +1,5 @@
 ﻿ecommerce
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Utilisateur\source\repos\newproduct\ecommerce\ecommerce\App.xaml
 51964120682
 
-9-528066105
+71984889978
 1951857590207
 Components\ProductsDetails.xaml;Components\ProductsListing.xaml;MainWindow.xaml;Views\Login.xaml;Views\ProductsView.xaml;
 
