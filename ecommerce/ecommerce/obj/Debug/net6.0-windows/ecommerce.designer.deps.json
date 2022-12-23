@@ -6,14 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "MySqlConnector/2.2.2": {
-        "runtime": {
-          "lib/net6.0/MySqlConnector.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.2.2.0"
-          }
-        }
-      }
+      "MySqlConnector/2.2.2": {}
     }
   },
   "libraries": {
