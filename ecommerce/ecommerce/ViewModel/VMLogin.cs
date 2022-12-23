@@ -9,7 +9,7 @@ using MySqlConnector;
 
 namespace ecommerce.ViewModel
 {
-    class VMLogin : Core
+    public class VMLogin : Core
     {
         public VMLogin(string pd, string u) : base(pd, u)
         {
