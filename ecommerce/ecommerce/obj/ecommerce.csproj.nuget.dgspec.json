@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\source\\repos\\last product\\ecommerce\\ecommerce\\ecommerce.csproj": {}
+    "C:\\Users\\emile\\Desktop\\Perso\\Ynov\\B2 INFO\\Cours\\C#\\CSharpProduct\\ecommerce\\ecommerce\\ecommerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\source\\repos\\last product\\ecommerce\\ecommerce\\ecommerce.csproj": {
+    "C:\\Users\\emile\\Desktop\\Perso\\Ynov\\B2 INFO\\Cours\\C#\\CSharpProduct\\ecommerce\\ecommerce\\ecommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\source\\repos\\last product\\ecommerce\\ecommerce\\ecommerce.csproj",
+        "projectUniqueName": "C:\\Users\\emile\\Desktop\\Perso\\Ynov\\B2 INFO\\Cours\\C#\\CSharpProduct\\ecommerce\\ecommerce\\ecommerce.csproj",
         "projectName": "ecommerce",
-        "projectPath": "C:\\Users\\Utilisateur\\source\\repos\\last product\\ecommerce\\ecommerce\\ecommerce.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\source\\repos\\last product\\ecommerce\\ecommerce\\obj\\",
+        "projectPath": "C:\\Users\\emile\\Desktop\\Perso\\Ynov\\B2 INFO\\Cours\\C#\\CSharpProduct\\ecommerce\\ecommerce\\ecommerce.csproj",
+        "packagesPath": "C:\\Users\\emile\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emile\\Desktop\\Perso\\Ynov\\B2 INFO\\Cours\\C#\\CSharpProduct\\ecommerce\\ecommerce\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

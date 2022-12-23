@@ -71,7 +71,7 @@ namespace ecommerce.Components {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ecommerce;component/components/productslisting.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ecommerce;V1.0.0.0;component/components/productslisting.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Components\ProductsListing.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
