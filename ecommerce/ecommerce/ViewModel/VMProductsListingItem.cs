@@ -11,12 +11,19 @@ namespace ecommerce.ViewModel
 {
     public class VMProductsListingItem : VMBase
     {
+        public int Id { get; }
         public string ProductName { get; }
+        public int Quantity { get; }
+        public float Price { get;}
+
         public ICommand EditCommand { get; } = default!;
         public ICommand DeleteCommand { get; } = default!;
-        public VMProductsListingItem(string productName)
+        public VMProductsListingItem(int id, string productName, int quantity, float price)
         {
+            Id = id;
             ProductName = productName;
+            Quantity = quantity;
+            Price = price;
         }
     }
 }

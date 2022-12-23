@@ -16,10 +16,6 @@ namespace ecommerce.ViewModel
         {
             _vmProductsListingItem = new ObservableCollection<VMProductsListingItem>();
 
-            _vmProductsListingItem.Add(new VMProductsListingItem("Dunk Low - Nike"));
-            _vmProductsListingItem.Add(new VMProductsListingItem("Vapormax - Nike"));
-            _vmProductsListingItem.Add(new VMProductsListingItem("TN - Nike"));
-
         }
     }
 }

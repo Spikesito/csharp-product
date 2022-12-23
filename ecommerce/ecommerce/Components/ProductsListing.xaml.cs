@@ -1,4 +1,7 @@
-﻿using System;
+﻿using ecommerce.Model;
+using ecommerce.ViewModel;
+using MySqlConnector;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +23,20 @@ namespace ecommerce.Components
     /// </summary>
     public partial class ProductsListing : UserControl
     {
+        public MySqlConnection conn;
+        public ProductsListing(MySqlConnection conn)
+        {
+            this.conn = conn;
+        }
         public ProductsListing()
         {
             InitializeComponent();
+            List<VMProductsListingItem> items = new List<VMProductsListingItem>();
+            ///items.Add(new VMProductsListingItem(1, "AF1", 12, 1));
+            ProductCRUD CRUD = new ProductCRUD(conn);
+            items = CRUD.Read();
+
+            dataProducts.ItemsSource = items;
         }
     }
 }

@@ -15,6 +15,12 @@ namespace ecommerce.ViewModel
         {
         }
 
+        public MySqlConnection GetConnection()
+        {
+            MySqlConnection cnn = ConnectDB();
+            cnn.Open();
+            return cnn;
+        }
         public string CheckLogin()
         {
             MySqlConnection cnn = ConnectDB();

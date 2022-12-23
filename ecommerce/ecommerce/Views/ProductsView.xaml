@@ -1,11 +1,11 @@
-﻿<UserControl x:Class="ecommerce.Views.ProductsView"
+﻿<Page x:Class="ecommerce.Views.ProductsView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ecommerce.Views"
              xmlns:vm="clr-namespace:ecommerce.ViewModel"
-             xmlns:components="clr-namespace:ecommerce.Components"
+             xmlns:components="clr-namespace:ecommerce.Components" xmlns:viewmodel="clr-namespace:ecommerce.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:VMProductsView}"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
@@ -34,4 +34,4 @@
             <components:ProductsDetails Grid.Column="1" Margin="20 0 0 0"/>
         </Grid>
     </Grid>
-</UserControl>
+</Page>

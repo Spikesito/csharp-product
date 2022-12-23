@@ -1,4 +1,7 @@
-﻿using System;
+﻿using ecommerce.Model;
+using ecommerce.ViewModel;
+using MySqlConnector;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,10 +21,13 @@ namespace ecommerce.Views
     /// <summary>
     /// Logique d'interaction pour ProductsView.xaml
     /// </summary>
-    public partial class ProductsView : UserControl
+    public partial class ProductsView : Page
     {
-        public ProductsView()
+
+        private MySqlConnection conn;
+        public ProductsView(MySqlConnection conn)
         {
+            this.conn = conn;
             InitializeComponent();
         }
     }

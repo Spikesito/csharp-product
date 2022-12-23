@@ -1,31 +1,22 @@
-﻿using MySqlConnector;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using ecommerce.ViewModel;
+
 
 namespace ecommerce.Views
 {
     /// <summary>
     /// Logique d'interaction pour Login.xaml
     /// </summary>
-    public partial class Login : UserControl
+    public partial class Login : Page
     {
-        public Login()
+        private Frame _frame;
+        public Login(Frame nav)
         {
+            _frame = nav;
             InitializeComponent();
         }
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -35,9 +26,10 @@ namespace ecommerce.Views
             if (log.CheckLogin() == "Error")
             {
                 MessageBox.Show("Erreur lors de la connexion", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            } else
+            }
+            else
             {
-                MessageBox.Show("GG", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                _frame.Navigate(new ProductsView(log.GetConnection()));
             }
             // var temp = cnn.State.ToString();
 
