@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.17.1" />
     <PackageReference Include="MySqlConnector" Version="2.2.2" />
   </ItemGroup>
 

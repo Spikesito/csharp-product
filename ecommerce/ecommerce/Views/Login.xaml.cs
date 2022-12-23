@@ -14,18 +14,22 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ecommerce.ViewModel;
+using AngleSharp.Browser.Dom;
 
 namespace ecommerce.Views
 {
     /// <summary>
     /// Logique d'interaction pour Login.xaml
     /// </summary>
-    public partial class Login : UserControl
+    public partial class Login : Page
     {
-        public Login()
+        private Frame _navigator;
+        public Login(Frame nav)
         {
+            _navigator = nav;
             InitializeComponent();
         }
+
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -37,7 +41,9 @@ namespace ecommerce.Views
                 MessageBox.Show("Erreur lors de la connexion", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             } else
             {
-                MessageBox.Show("GG", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                _navigator.Navigate(new ProductsView());
+
+
             }
             // var temp = cnn.State.ToString();
 

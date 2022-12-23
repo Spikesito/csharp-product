@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AngleSharp.Browser.Dom;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,8 +19,9 @@ namespace ecommerce.Views
     /// <summary>
     /// Logique d'interaction pour ProductsView.xaml
     /// </summary>
-    public partial class ProductsView : UserControl
+    public partial class ProductsView : Page
     {
+
         public ProductsView()
         {
             InitializeComponent();
